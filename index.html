@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wicked game</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <p>Try to guess the random number!</p>
+        <p>choose number from 0 and 10</p>
+        <p>out of 3 chances you've got left: <span id="chance">3</span></p>
+        <input id="consumerChoice" type="number" required min="0" max="10">
+        <button type="button" id="check">Check</button>
+        <br>
+        <p id="randomNumber-p">Random number is: <span id="randomNumber"></span></p>
+        <p id="win">You are winner!
+            <a class="a-link" href="index.html"> <span class="link">try again</span></a>
+        </p>
+        <p id="incorrect"> Try again.</p>
+        <p id="lose">Game Over.
+            <a class="a-link" href="index.html"> <span class="link">try again</span></a>
+        </p>
+        <br>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
